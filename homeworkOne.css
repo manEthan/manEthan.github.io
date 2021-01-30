@@ -1,0 +1,21 @@
+body {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+	margin: 10px;
+}
