@@ -1,0 +1,27 @@
+body {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+button {
+	color: white;
+	background-color: blue;
+	border-width: 3px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+	margin: 10px;
+}
