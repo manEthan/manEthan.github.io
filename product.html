@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
+	<title>Products</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css"> 
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> 
+	<script src="Semantic-UI-CSS-master/semantic.min.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">ABC Toys</a> <!-- for the logo or name of the company -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcollapsed">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navcollapsed">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Us</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="product.html">Products</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="location.html">Location</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="extra.html">Extra</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<h1>Products</h1>
+		<br>
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<button data-toggle="collapse" data-target="#toy1" class="ui icon button">
+					<i class="info circle icon"></i> Stranger Things
+				</button>
+				<div id="toy1" class="collapse">
+					<div class="row">
+						<div class="col-sm-4">
+							<img src="https://www.lego.com/cdn/cs/set/assets/bltc7618b3e8c497a2e/75810.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1" class="img-fluid">
+						</div>
+						<div class="col-sm-8">
+							<h3>Stranger Things</h3>
+							<p>This lego set released in 2019 quickly became a fan-favorite, representing the beloved Netflix show, Stranger Things</p>
+						</div>
+					</div>
+				</div>
+				<br> <br>
+				<button data-toggle="collapse" data-target="#toy2" class="ui icon button">
+					<i class="info circle icon"></i> The Child
+				</button>
+				<div id="toy2" class="collapse">
+					<div class="row">
+						<div class="col-sm-4">	
+							<img src="https://media1.popsugar-assets.com/files/thumbor/4VKB5em5936bTccVAyBlfby0ErM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/09/21/696/n/24155406/e70425fe1c9c886b_75318_alt2/i/Look-How-Cute.jpg" class="img-fluid">
+						</div>
+						<div class="col-sm-8">
+							<h3>The Child</h3>
+							<p>This lego set is built to represent the beloved character, The Child, from The Mandalorian. Fans may also know the adorable creature as Baby Yoda, or Grogu.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<button data-toggle="collapse" data-target="#toy3" class="ui icon button">
+				<i class="info circle icon"></i> Hogwarts Castle
+			</button>
+			<div id="toy3" class="collapse">
+				<div class="row">
+					<div class="col-sm-4">	
+						<img src="https://images.shoutwiki.com/lego/thumb/a/a2/71043_alt1.png/1200px-71043_alt1.png" class="img-fluid">
+					</div>
+					<div class="col-sm-8">
+						<h3>Hogwarts Castle</h3>
+						<p>This massive set is made for the biggest Harry Potter fans. The castle doesn't only have a huge scale, it also has a scaled-down interior, featuring a number of iconic scenes from the book and movie franchise.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
