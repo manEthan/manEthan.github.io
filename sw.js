@@ -2,6 +2,8 @@ var cacheName = 'ethan-pwa';
 var filesToCache = [
   '/',
   '/index.html',
+  '/blueindex.html',
+  '/goldindex.html',
   '/main.js'
 ];
 
