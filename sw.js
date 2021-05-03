@@ -4,6 +4,8 @@ var filesToCache = [
   '/index.html',
   '/blueindex.html',
   '/goldindex.html',
+  '/lightblue.jpg',
+  '/lightgold.jpg',
   '/main.js'
 ];
 
