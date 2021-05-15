@@ -13,3 +13,8 @@ h2 {
 img {
 	align-content: center;
 }
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
